@@ -1,0 +1,39 @@
+.fileType {
+    white-space: nowrap;
+
+    .fileType-url {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .fileType-type {
+        border-radius: 3px;
+        color: white;
+        padding: 2px 5px;
+        font-size: 1rem;
+        display: inline-block;
+        margin-left: 3px;
+        font-weight: bold;
+        background-color: #999;
+        
+
+        &.html {
+            background-color: #456499;
+        }
+        &.css {
+            background-color: #6b9979;
+        }
+        &.js {
+            background-color: #99993b;
+        }
+        &.json {
+            background-color: #558f99;
+        }
+        &.image {
+            background-color: #866399;
+        }
+        &.font {
+            background-color: #799958;
+        }
+    }
+}
